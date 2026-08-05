@@ -153,10 +153,10 @@ El sitio fue diseñado siguiendo una identidad tropical utilizando:
 
 # 📸 Vista previa
 
-<img src="cap.jpg" alt="Smooth Pical Logo" width="230">
-<img src="cap 2.jpg" alt="Smooth Pical Logo" width="230">
-<img src="cap3.jpg" alt="Smooth Pical Logo" width="230">
-<img src="cap4.jpg" alt="Smooth Pical Logo" width="230">
+<img src="cap.jpg" alt="Smooth Pical Logo" width="500">
+<img src="cap 2.jpg" alt="Smooth Pical Logo" width="500">
+<img src="cap3.jpg" alt="Smooth Pical Logo" width="500">
+<img src="cap4.jpg" alt="Smooth Pical Logo" width="500">
 
 ---
 
