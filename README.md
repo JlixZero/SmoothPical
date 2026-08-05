@@ -192,7 +192,7 @@ Si deseas mejorar el proyecto:
 
 **Julian Sanguino Ramírez**
 
-Desarrollador del proyecto Smooth Pical.
+Desarrollador del proyecto SmoothPical.
 
 ---
 
