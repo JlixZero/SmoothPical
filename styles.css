@@ -16,6 +16,18 @@
 
 * { box-sizing: border-box; }
 
+html, body {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDMwIDMwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmI1MWIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU1IiBzdG9wLWNvbG9yPSIjZWY3NWFlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhjNGRhZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iOS41IiBmaWxsPSJ1cmwoI2cpIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPgogIDxjaXJjbGUgY3g9IjExLjciIGN5PSIxMS4zIiByPSIyLjQiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuODUiLz4KPC9zdmc+Cg==") 15 15, auto;
+}
+
+a, button, select, .flavor-card {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCIgdmlld0JveD0iMCAwIDM0IDM0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZzIiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjg4NjE0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41NSIgc3RvcC1jb2xvcj0iI2VmNzVhZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3MTQwOGYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTciIHI9IjEwLjUiIGZpbGw9InVybCgjZzIpIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi40Ii8+CiAgPGNpcmNsZSBjeD0iMTIuMiIgY3k9IjEzIiByPSIyLjYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuOSIvPgogIDxwYXRoIGQ9Ik0yNiA1IEwyNy41IDguMyBMMzAuOCA5LjggTDI3LjUgMTEuMyBMMjYgMTQuNiBMMjQuNSAxMS4zIEwyMS4yIDkuOCBMMjQuNSA4LjMgWiIgZmlsbD0iI2ZmZjNhNiIvPgo8L3N2Zz4K") 16 17, pointer;
+}
+
+input:not([type="button"]):not([type="submit"]), textarea {
+  cursor: text;
+}
+
 html { scroll-behavior: smooth; overflow-x: clip; }
 
 body {
@@ -39,7 +51,7 @@ body::before {
 
 img { display: block; max-width: 100%; }
 button, input, select, textarea { font: inherit; }
-button { cursor: pointer; }
+button { cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCIgdmlld0JveD0iMCAwIDM0IDM0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZzIiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjg4NjE0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41NSIgc3RvcC1jb2xvcj0iI2VmNzVhZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3MTQwOGYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTciIHI9IjEwLjUiIGZpbGw9InVybCgjZzIpIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi40Ii8+CiAgPGNpcmNsZSBjeD0iMTIuMiIgY3k9IjEzIiByPSIyLjYiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuOSIvPgogIDxwYXRoIGQ9Ik0yNiA1IEwyNy41IDguMyBMMzAuOCA5LjggTDI3LjUgMTEuMyBMMjYgMTQuNiBMMjQuNSAxMS4zIEwyMS4yIDkuOCBMMjQuNSA4LjMgWiIgZmlsbD0iI2ZmZjNhNiIvPgo8L3N2Zz4K") 16 17, pointer; }
 a { color: inherit; }
 
 :focus-visible { outline: 3px solid var(--mango); outline-offset: 4px; }
@@ -140,7 +152,7 @@ h2 { max-width: 12ch; margin-bottom: 0; color: var(--purple); font-size: clamp(2
 .section-intro { max-width: 23rem; margin: 0 0 .35rem; color: var(--muted); font-weight: 700; line-height: 1.6; }
 
 .flavor-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(.75rem, 1.8vw, 1.4rem); }
-.flavor-card { position: relative; min-height: 440px; border: 1px solid var(--line); border-radius: 1.8rem; background: #fff; box-shadow: 0 9px 18px rgba(74, 50, 58, .04); cursor: pointer; overflow: hidden; transition: transform .3s ease, box-shadow .3s ease; }
+.flavor-card { position: relative; min-height: 440px; border: 1px solid var(--line); border-radius: 1.8rem; background: #fff; box-shadow: 0 9px 18px rgba(74, 50, 58, .04); overflow: hidden; transition: transform .3s ease, box-shadow .3s ease; }
 .flavor-card:hover, .flavor-card:focus-visible, .flavor-card.is-selected { box-shadow: 0 21px 38px rgba(88, 56, 66, .18); transform: translateY(-9px); }
 .flavor-card.is-selected { outline: 3px solid var(--card-color); outline-offset: 3px; }
 .card-photo { height: 208px; background-image: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.08)), url("assets/smoothies-menu-2026.png"); background-repeat: no-repeat; background-size: 510% auto; }
