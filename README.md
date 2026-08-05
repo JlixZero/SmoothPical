@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/logo.png" alt="Smooth Pical Logo" width="180">
+<img src="logo.png" alt="Smooth Pical Logo" width="180">
 
 ### 🌴 La pausa más rica del día.
 
