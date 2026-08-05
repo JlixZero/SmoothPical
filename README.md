@@ -105,6 +105,7 @@ No requiere instalación de dependencias.
 ---
 
 # 📱 Sistema de pedidos
+## Proximamente
 
 El sitio permite:
 
@@ -120,7 +121,7 @@ También incluye la integración preparada para:
 - Google Apps Script
 - Telegram (opcional)
 
-Toda la configuración se encuentra documentada en:
+Toda la configuración se encuentrara futuramente documentada en:
 
 ```
 README-PEDIDOS.txt
