@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="SMOOTH.png" alt="Smooth Pical Logo" width="190">
+<img src="SMOOTH.png" alt="Smooth Pical Logo" width="200">
 <img src="escudo.png" alt="Colegio Logo" width="180">
 
 ### 🌴 La pausa más rica del día.
